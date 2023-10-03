@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/form_page.dart';
 
 import 'package:flutter_application_1/screens/login_page.dart';
+import 'package:flutter_application_1/screens/register_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -21,6 +22,6 @@ class MyApp extends StatelessWidget {
         darkTheme: ThemeData(
           brightness: Brightness.dark,
         ),
-        routes: {"/": (context) => FormPage()});
+        routes: {"/": (context) => RegisterPage()});
   }
 }
