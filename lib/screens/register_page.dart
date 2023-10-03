@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/utils/routes.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});
@@ -44,7 +45,7 @@ class RegisterPage extends StatelessWidget {
             SizedBox(height: 30.0),
             ElevatedButton(
                 onPressed: () {
-                  print("Hello");
+                  Navigator.pushNamed(context, MyRoutes.loginRoute);
                 },
                 child: Text("Sign up"))
           ],
